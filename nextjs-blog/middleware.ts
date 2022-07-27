@@ -4,5 +4,5 @@ export default function middleware(request) {
 }
 // config with custom matcher
 export const config = {
-  matcher: '/posts/first-post',
+  matcher: '/posts/first-post/:path*',
 };
