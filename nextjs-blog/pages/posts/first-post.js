@@ -8,7 +8,7 @@ export default function FirstPost() {
         src="https://assets.zephr.com/zephr-browser/1.3.10/zephr-browser.umd.js"
         strategy="lazyOnload"
         onLoad={() => {
-          zephrBrowser.run("https://tomd-vercel.cdn.zephr.com/")
+          zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")
           console.log(`script loaded correctly`)}
         }
       />
