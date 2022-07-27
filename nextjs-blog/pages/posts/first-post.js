@@ -18,7 +18,7 @@ export default function FirstPost() {
           <a>Back to home</a>
         </Link>
       </h2>
-      <p class = article> wall of text
+      <p class = "article"> wall of text
           Jump to navigationJump to search
 
           Contents
