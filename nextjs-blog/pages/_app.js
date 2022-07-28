@@ -13,6 +13,8 @@ function MyApp() {
     
     <button onClick={() => setResourceType('page')}>Refresh</button>
 
+    <h1>{resourceType}</h1>
+
     <p class = "article"> wall of text
           Jump to navigationJump to search
 
