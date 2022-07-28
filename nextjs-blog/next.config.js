@@ -3,11 +3,11 @@ module.exports = () => {
     return [
       {
         source: "/zephr/features",
-        destination: "https://tomd-vercel_personal_test.cdn.zephr.com/zephr/feature",
+        destination: "https://tomd-vercel_personal_test.cdn.zephr.com/zephr/features",
       },
       {
         source: "/blaize/features",
-        destination: "https://tomd-vercel_personal_test.cdn.zephr.com/blaize/feature",
+        destination: "https://tomd-vercel_personal_test.cdn.zephr.com/blaize/features",
       },
       {
         source: "/zephr/feature-decisions",
