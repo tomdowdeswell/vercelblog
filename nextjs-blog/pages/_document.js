@@ -8,7 +8,7 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <script src = zephr
+          <script src = { zephr }
           />
         </Head>
         <body>
