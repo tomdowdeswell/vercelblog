@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
    Router.events.on("routeChangeComplete", (path) => {
      console.log(`Route change complete.`);
      setTimeout(() => {
-     console.log("running script here") 
+       zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")
      }, 0);
      });
 
@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
  }, [Router]);
   
   useEffect(() => {
-    zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")
+    console.log("running script here") 
   });
   
   return (
