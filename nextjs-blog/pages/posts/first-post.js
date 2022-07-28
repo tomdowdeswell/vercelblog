@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Script from 'next/script'
+import { useEffect } from 'react';
 
 export default function FirstPost() {
   return (
@@ -12,6 +13,10 @@ export default function FirstPost() {
             console.log(`script loaded correctly`)}
         }
       />
+  
+    useEffect(() => {
+        zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")});
+              
       <h1>First Post</h1>
       <h2>
         <Link href="/">
