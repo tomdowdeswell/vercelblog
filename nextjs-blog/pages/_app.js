@@ -5,7 +5,7 @@ function MyApp() {
   const [resourceType, setResourceType] = useState('page')
   
   useEffect(() => {
-    zephrBrowser.run()
+    zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")
   })
   
   return (
