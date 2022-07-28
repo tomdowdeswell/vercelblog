@@ -8,7 +8,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <script src = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js"></script>
+        <script src="https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js"></script>
       </Head>
       <body>
         <Main />
