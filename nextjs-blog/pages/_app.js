@@ -8,7 +8,7 @@ function MyApp() {
   
   useEffect(() => {
     zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")
-  })
+  }, [router.asPath]);
   
   return (
     <>
