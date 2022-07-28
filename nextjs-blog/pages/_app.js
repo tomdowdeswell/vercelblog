@@ -15,7 +15,7 @@ function MyApp() {
     <>
     <script src = { zephr } />
     
-    <button onClick={() => setResourceType('wall of text
+    <button onClick={() => setResourceType('''wall of text
           Jump to navigationJump to search
 
           Contents
@@ -35,8 +35,8 @@ function MyApp() {
           ±an intimidatingly large block of writing
           See also
           copypasta
-          info-dump ')}>Refresh</button>
-    <button onClick={() => setResourceType('wall of text
+          info-dump ''')}>Refresh</button>
+    <button onClick={() => setResourceType('''wall of text
           Jump to navigationJump to search
 
           Contents
@@ -56,7 +56,7 @@ function MyApp() {
           ±an intimidatingly large block of writing
           See also
           copypasta
-          info-dump ')}>Article</button>
+          info-dump ''')}>Article</button>
 
 
     <p class = "article"> {resourceType} 
