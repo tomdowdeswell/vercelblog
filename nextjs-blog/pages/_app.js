@@ -6,7 +6,7 @@ const zephr = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.j
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => { 
-      zephrBrowser.run("tomd-vercel.cdn.zephr.com");
+      zephrBrowser.run();
   });
   
   return (
