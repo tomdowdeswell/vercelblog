@@ -2,11 +2,11 @@ module.exports = () => {
   const rewrites = () => {
     return [
       {
-        source: "/zephr/feature",
+        source: "/zephr/features",
         destination: "https://tomd-vercel_personal_test.cdn.zephr.com/zephr/feature",
       },
       {
-        source: "/blaize/feature",
+        source: "/blaize/features",
         destination: "https://tomd-vercel_personal_test.cdn.zephr.com/blaize/feature",
       },
       {
