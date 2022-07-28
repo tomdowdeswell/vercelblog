@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import React, { useState, useEffect } from 'react'
 import Script from 'next/script'
-import 
+import 'next/head'
 // const zephr = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js"
 
 function MyApp({ Component, pageProps }) {
@@ -13,13 +13,15 @@ function MyApp({ Component, pageProps }) {
   
   return (
     <>
-
-    <script
-        src="https://assets.zephr.com/zephr-browser/1.3.10/zephr-browser.umd.js"
-        onLoad={() => {
-          console.log(`script loaded correctly`)}
-        }
-      />
+      <Head>
+        <script
+            src="https://assets.zephr.com/zephr-browser/1.3.10/zephr-browser.umd.js"
+            onLoad={() => {
+              console.log(`script loaded correctly`)
+              zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")}
+            }
+          />
+      </Head>
 
     
     <button onClick={() => setResourceType(`wall of text
