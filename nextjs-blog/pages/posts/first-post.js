@@ -1,5 +1,9 @@
 import Link from 'next/link'
 
+useEffect(() => {
+  zephrBrowser.run())}
+
+
 export default function FirstPost() {
   return (
     <>
