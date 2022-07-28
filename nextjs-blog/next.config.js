@@ -3,7 +3,7 @@ module.exports = () => {
     return [
       {
         source: "/zephr/features",
-        destination: "httsp://tomd-vercel.cdn.zephr.com/zephr/features",
+        destination: "https://tomd-vercel.cdn.zephr.com/zephr/features",
       },
     ];
   };
