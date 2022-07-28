@@ -12,10 +12,11 @@ export default function FirstPost() {
           zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")
             console.log(`script loaded correctly`)}
         }
+      useEffect(() => {
+        zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")});
       />
   
-    useEffect(() => {
-        zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")});
+
               
       <h1>First Post</h1>
       <h2>
