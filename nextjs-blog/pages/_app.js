@@ -6,13 +6,14 @@ const zephr = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.j
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => { 
-      zephrBrowser.run()};
+      zephrBrowser.run();
+  });
   
   return (
     <>
       <Component {...pageProps} />
     </>
-  )
+  );
 }
 
 export default MyApp
