@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import React { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 
 function MyApp() {
   const [resourceType, setResourceType] = useState('page')
