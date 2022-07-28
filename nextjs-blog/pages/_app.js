@@ -6,7 +6,8 @@ const zephr = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.j
 
 function MyApp({ Component, pageProps }) {
   
-  <script src = {zephr} />
+  <Script src = {zephr} />
+   
    useEffect(() => { 
     zephrBrowser.run()})
   
