@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
       <script src = {zephr} />
       <Component {...pageProps} />
     </>
-  })
+  )
 }
 
 export default MyApp
