@@ -1,6 +1,5 @@
 import '../styles/globals.css'
 import React, { useState, useEffect } from 'react'
-import * as All from "@zephr/browser"
 
 function MyApp() {
   const [resourceType, setResourceType] = useState('page')
