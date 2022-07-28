@@ -7,7 +7,7 @@ export default function Document() {
   return (
     <Html>
       <Head 
-        <script src = { zephr }/>
+        <Script src = { zephr }/>
       <body>
         <Main />
         <NextScript />
