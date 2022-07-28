@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import React, { useState, useEffect } from 'react'
 import Script from 'next/script'
 const zephr = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js"
+import { useRouter } from 'next/router'
 
 function MyApp() {
   const [resourceType, setResourceType] = useState('page')
