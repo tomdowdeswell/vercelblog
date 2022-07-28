@@ -1,14 +1,29 @@
 import '../styles/globals.css'
 import React, { useState, useEffect } from 'react'
 import Script from 'next/script'
+import Router from "next/router"
 const zephr = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js"
 
 function MyApp() {
   const [resourceType, setResourceType] = useState('page')
   
   useEffect(() => {
-    zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")
-  });
+   "use strict";
+   Router.events.on("routeChangeComplete", (path) => {
+     console.log(`Route change complete.`);
+     setTimeout(() => {
+     console.log("running script here") 
+     }, 0);
+     });
+
+     return () => {
+       Router.events.off('routeChangeComplete', 0);
+   }
+ }, [Router]);
+  
+//   useEffect(() => {
+//     zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")
+//   });
   
   return (
     <>
