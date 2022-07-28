@@ -11,7 +11,8 @@ function MyApp() {
   return (
     <>
     
-    <button onClick={() => setResourceType('page')}>Refresh</button>
+    <button onClick={() => setResourceType('refresh')}>Refresh</button>
+    <button onClick={() => setResourceType('article')}>Refresh</button>
 
     <h1>{resourceType}</h1>
 
