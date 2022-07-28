@@ -5,9 +5,14 @@ import Head from 'next/head'
 const zephr = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js"
 
 function MyApp({ Component, pageProps }) {
+  useEffect(()=>{
+    zephrBrowser.run()}
+  
   return (
     <>
-      <script src = {zephr} />
+    <Head>
+      <Script src = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js" />
+    </Head>
       <Component {...pageProps} />
     </>
   )
