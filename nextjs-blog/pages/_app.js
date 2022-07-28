@@ -6,12 +6,12 @@ const zephr = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.j
 
 function MyApp({ Component, pageProps }) 
   
-  return
+  return (
       <Head>
         <script src = {zephr} />
        </Head>
       <Component {...pageProps} />
-}
+})
 
 export default MyApp
 
