@@ -4,7 +4,7 @@ import Script from 'next/script'
 import Router from "next/router"
 const zephr = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js"
 
-function MyApp() {
+function MyApp({ Component, pageProps }) {
   const [resourceType, setResourceType] = useState('page')
   
   useEffect(() => {
