@@ -17,6 +17,10 @@ module.exports = () => {
         source: "/blaize/feature-decisions",
         destination: "https://tomd-vercel_personal_test.cdn.zephr.com/blaize/feature-decisions",
       },
+      {
+        source: "/blaize/register",
+        destination: "https://tomd-vercel_personal_test.cdn.zephr.com/blaize/register",
+      },
     ];
   };
   return {
