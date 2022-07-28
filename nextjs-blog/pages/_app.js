@@ -12,7 +12,7 @@ function MyApp() {
     <>
     
     <button onClick={() => setResourceType('refresh')}>Refresh</button>
-    <button onClick={() => setResourceType('article')}>Refresh</button>
+    <button onClick={() => setResourceType('article')}>Article</button>
 
     <h1>{resourceType}</h1>
 
