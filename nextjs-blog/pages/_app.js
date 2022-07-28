@@ -5,11 +5,31 @@ import Head from 'next/head'
 // const zephr = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js"
 
 function MyApp({ Component, pageProps }) {
-  const [resourceType, setResourceType] = useState('page')
+  const [resourceType, setResourceType] = useState(`wall of text
+          Jump to navigationJump to search
+
+          Contents
+          1	English
+          1.1	Noun
+          1.1.1	Alternative forms
+          1.1.2	Translations
+          1.1.3	See also
+          English
+          Noun
+          wall of text (plural walls of text)
+
+          (chiefly Internet slang) An intimidatingly large block of writing, particularly one with few or no paragraph breaks.
+          Alternative forms
+          text wall
+          Translations
+          ±an intimidatingly large block of writing
+          See also
+          copypasta
+          info-dump`)
   
-  useEffect(() => {
-    zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")
-  });
+//   useEffect(() => {
+//     zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")
+//   });
   
   return (
     <>
