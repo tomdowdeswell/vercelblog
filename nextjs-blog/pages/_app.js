@@ -12,7 +12,7 @@ function MyApp() {
   
   return (
     <>
-    <script src = { zephr } </script>
+    <script src = { zephr } />
     
     <button onClick={() => setResourceType('refresh')}>Refresh</button>
     <button onClick={() => setResourceType('article')}>Article</button>
