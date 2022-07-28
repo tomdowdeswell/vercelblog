@@ -4,12 +4,13 @@ import Script from 'next/script'
 import Head from 'next/head'
 const zephr = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js"
 
-function MyApp({ Component, pageProps }) {
-  <Head>
-    <script src = {zephr} />
-   </Head>
+function MyApp({ Component, pageProps }) 
   
-  return <Component {...pageProps} />
+  return
+      <Head>
+        <script src = {zephr} />
+       </Head>
+      <Component {...pageProps} />
 }
 
 export default MyApp
