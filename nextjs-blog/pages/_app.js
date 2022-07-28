@@ -5,6 +5,10 @@ import Head from 'next/head'
 const zephr = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js"
 
 function MyApp({ Component, pageProps }) {
+  <Head>
+    <script src = {zephr} />
+   </Head>
+  
   return <Component {...pageProps} />
 }
 
