@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 const zephr = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js"
+import Script from 'next/script'
 
 export default function Document() {
   return (
