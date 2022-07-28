@@ -3,7 +3,6 @@ const zephr = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.j
 
 import { Html, Head, Main, NextScript } from 'next/document'
 import Script from 'next/script'
-import Head from 'next/head'
 
 export default function Document() {
   return (
