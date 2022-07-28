@@ -8,9 +8,6 @@ function MyApp({ Component, pageProps }) {
   
   return (
     <>
-    <Head>
-      <Script src = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js" />
-    </Head>
       <Component {...pageProps} />
     </>
   )
