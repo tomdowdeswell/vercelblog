@@ -1,5 +1,7 @@
 import '../styles/globals.css'
 import React, { useState, useEffect } from 'react'
+import Script from 'next/script'
+const zephr = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js"
 
 function MyApp() {
   const [resourceType, setResourceType] = useState('page')
@@ -10,6 +12,7 @@ function MyApp() {
   
   return (
     <>
+    <Script src = { zephr } />
     
     <button onClick={() => setResourceType('refresh')}>Refresh</button>
     <button onClick={() => setResourceType('article')}>Article</button>
