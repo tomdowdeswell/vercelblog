@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <script
-            src="https://assets.zephr.com/zephr-browser/1.3.10/zephr-browser.umd.js"
+            src="https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js"
             onLoad={() => {
               console.log(`script loaded correctly`)
               zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")}
