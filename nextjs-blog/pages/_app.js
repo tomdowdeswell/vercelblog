@@ -27,19 +27,15 @@ function MyApp({ Component, pageProps }) {
           copypasta
           info-dump`)
   
-//   useEffect(() => {
-//     zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")
-//   });
+  useEffect(() => {
+    zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")
+  });
   
   return (
     <>
       <Head>
         <script
             src="https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js"
-            onLoad={() => {
-              console.log(`script loaded correctly`)
-              zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")}
-            }
           />
       </Head>
 
