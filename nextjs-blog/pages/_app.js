@@ -1,33 +1,21 @@
 import '../styles/globals.css'
 import React, { useState, useEffect } from 'react'
 import Script from 'next/script'
-import Router from "next/router"
+import Head from 'next/head'
 const zephr = "https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js"
 
 function MyApp({ Component, pageProps }) {
   const [resourceType, setResourceType] = useState('page')
   
   useEffect(() => {
-   "use strict";
-   Router.events.on("routeChangeComplete", (path) => {
-     console.log(`Route change complete.`);
-     setTimeout(() => {
-       zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")
-     }, 0);
-     });
-
-     return () => {
-       Router.events.off('routeChangeComplete', 0);
-   }
- }, [Router]);
-  
-  useEffect(() => {
-    console.log("running script here") 
+    zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")
   });
   
   return (
     <>
-    <script src = { zephr } />
+    <Head>
+    <script src = { zephr }> </script>
+    </Head>
     
     <button onClick={() => setResourceType(`wall of text
           Jump to navigationJump to search
