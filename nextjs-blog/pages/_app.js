@@ -1,12 +1,12 @@
 import '../styles/globals.css'
 import React, { useState, useEffect } from 'react'
-import * from "@zephr/browser"
+import { zephrBrowser } from "@zephr/browser"
 
 function MyApp() {
   const [resourceType, setResourceType] = useState('page')
   
   useEffect(() => {
-    zephrBroswer.run()
+    zephrBrowser.run()
   })
   
   return (
