@@ -21,9 +21,9 @@ function MyApp({ Component, pageProps }) {
    }
  }, [Router]);
   
-//   useEffect(() => {
-//     zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")
-//   });
+  useEffect(() => {
+    zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")
+  });
   
   return (
     <>
