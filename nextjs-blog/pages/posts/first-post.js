@@ -1,10 +1,4 @@
 import Link from 'next/link'
-import React, { useState, useEffect } from 'react';
-
-useEffect(() => {
-  zephrBrowser.run();
-  )};
-
 
 export default function FirstPost() {
   return (
