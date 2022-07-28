@@ -4,20 +4,7 @@ import { useEffect } from 'react';
 
 export default function FirstPost() {
   return (
-    <>
-      <Script
-        src="https://assets.zephr.com/zephr-browser/1.3.11/zephr-browser.umd.js"
-        strategy="lazyOnload"
-        onLoad={() => {
-          zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")
-            console.log(`script loaded correctly`)}
-        }
-      useEffect(() => {
-        zephrBrowser.run("https://tomd-vercel.cdn.zephr.com")});
-      />
-  
-
-              
+    <>        
       <h1>First Post</h1>
       <h2>
         <Link href="/">
