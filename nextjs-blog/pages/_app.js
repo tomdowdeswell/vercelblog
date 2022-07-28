@@ -57,6 +57,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     <p class = "article"> {resourceType} </p>
    </>
   )
+  return <Component {...pageProps} />
 }
 
 export default MyApp
