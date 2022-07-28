@@ -6,7 +6,7 @@ function MyApp() {
   
   useEffect(() => {
     console.log("Yeh I've been rendered")
-  }
+  })
   
   return (
     <>
